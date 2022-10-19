@@ -1,0 +1,3856 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-001'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-001",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-001",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-001'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-001",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-001",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-002'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-002",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-002",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-002'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-002",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-002",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-003'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-003",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-003",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-003'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-003",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-003",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-004'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-004",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-004",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-004'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-004",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-004",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-005'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-005",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-005",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-005'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-005",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-005",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-006'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-006",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-006",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-006'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-006",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-006",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-007'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-007",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-007",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-007'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-007",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-007",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-008'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-008",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-008",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-008'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-008",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-008",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-009'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-009",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-009",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-009'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-009",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-009",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-010'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-010",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-010",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-010'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-010",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-010",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-011'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-011",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-011",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-011'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-011",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-011",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-012'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-012",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-012",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-012'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-012",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-012",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-013'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-013",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-013",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-013'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-013",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-013",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-014'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-014",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-014",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-014'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-014",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-014",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-015'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-015",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-015",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-015'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-015",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-015",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-016'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-016",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-016",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-016'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-016",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-016",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-017'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-017",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-017",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-017'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-017",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-017",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-018'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-018",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-018",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-018'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-018",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-018",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-019'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-019",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-019",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-019'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-019",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-019",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-020'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-020",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-020",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-020'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-020",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-020",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-021'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-021",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-021",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-021'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-021",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-021",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-022'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-022",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-022",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-022'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-022",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-022",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-023'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-023",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-023",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-023'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-023",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-023",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-024'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-024",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-024",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-024'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-024",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-024",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-025'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-025",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-025",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-025'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-025",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-025",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-026'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-026",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-026",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-026'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-026",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-026",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-027'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-027",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-027",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-027'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-027",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-027",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-028'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-028",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-028",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-028'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-028",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-028",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-029'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-029",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-029",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-029'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-029",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-029",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-030'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-030",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-030",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-030'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-030",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-030",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-031'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-031",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-031",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-031'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-031",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-031",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-032'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-032",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-032",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-032'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-032",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-032",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-033'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-033",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-033",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-033'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-033",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-033",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-034'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-034",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-034",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-034'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-034",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-034",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-035'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-035",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-035",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-035'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-035",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-035",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-036'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-036",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-036",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-036'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-036",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-036",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-037'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-037",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-037",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-037'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-037",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-037",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-038'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-038",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-038",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-038'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-038",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-038",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-039'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-039",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-039",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-039'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-039",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-039",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-040'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-040",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-040",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-040'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-040",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-040",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-041'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-041",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-041",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-041'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-041",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-041",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-042'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-042",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-042",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-042'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-042",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-042",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-043'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-043",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-043",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-043'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-043",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-043",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-044'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-044",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-044",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-044'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-044",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-044",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-045'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-045",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-045",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-045'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-045",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-045",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-046'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-046",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-046",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-046'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-046",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-046",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-047'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-047",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-047",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-047'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-047",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-047",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-048'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-048",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-048",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-048'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-048",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-048",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-049'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-049",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-049",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-049'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-049",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-049",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-050'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-050",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-050",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-050'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-050",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-050",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-051'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-051",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-051",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-051'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-051",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-051",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-052'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-052",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-052",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-052'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-052",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-052",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-053'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-053",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-053",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-053'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-053",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-053",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-054'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-054",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-054",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-054'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-054",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-054",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-055'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-055",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-055",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-055'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-055",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-055",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-056'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-056",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-056",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-056'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-056",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-056",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-057'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-057",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-057",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-057'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-057",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-057",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-058'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-058",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-058",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-058'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-058",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-058",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-059'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-059",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-059",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-059'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-059",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-059",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-060'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-060",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-060",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-060'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-060",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-060",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-061'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-061",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-061",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-061'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-061",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-061",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-062'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-062",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-062",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-062'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-062",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-062",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-063'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-063",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-063",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-063'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-063",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-063",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-064'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-064",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-064",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-064'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-064",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-064",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-065'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-065",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-065",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-065'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-065",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-065",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-066'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-066",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-066",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-066'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-066",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-066",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-067'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-067",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-067",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-067'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-067",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-067",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-068'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-068",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-068",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-068'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-068",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-068",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-069'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-069",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-069",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-069'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-069",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-069",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-070'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-070",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-070",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-070'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-070",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-070",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-071'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-071",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-071",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-071'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-071",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-071",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-072'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-072",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-072",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-072'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-072",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-072",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-073'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-073",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-073",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-073'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-073",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-073",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-074'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-074",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-074",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-074'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-074",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-074",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-075'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-075",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-075",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-075'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-075",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-075",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-076'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-076",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-076",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-076'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-076",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-076",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-077'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-077",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-077",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-077'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-077",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-077",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-078'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-078",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-078",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-078'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-078",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-078",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-079'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-079",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-079",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-079'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-079",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-079",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-080'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-080",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-080",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-080'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-080",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-080",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-081'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-081",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-081",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-081'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-081",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-081",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-082'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-082",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-082",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-082'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-082",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-082",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-083'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-083",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-083",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-083'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-083",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-083",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-084'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-084",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-084",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-084'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-084",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-084",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-085'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-085",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-085",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-085'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-085",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-085",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-086'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-086",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-086",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-086'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-086",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-086",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-087'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-087",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-087",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-087'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-087",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-087",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-088'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-088",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-088",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-088'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-088",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-088",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-089'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-089",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-089",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-089'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-089",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-089",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-090'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-090",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-090",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-090'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-090",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-090",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-091'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-091",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-091",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-091'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-091",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-091",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-092'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-092",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-092",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-092'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-092",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-092",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-093'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-093",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-093",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-093'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-093",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-093",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-094'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-094",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-094",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-094'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-094",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-094",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-095'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-095",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-095",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-095'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-095",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-095",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-096'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-096",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-096",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-096'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-096",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-096",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-097'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-097",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-097",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-097'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-097",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-097",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-098'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-098",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-098",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-098'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-098",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-098",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-099'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-099",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-099",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-099'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-099",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-099",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-100'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-100",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-100",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-100'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-100",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-100",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-101'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-101",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-101",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-101'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-101",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-101",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-102'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-102",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-102",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-102'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-102",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-102",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-103'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-103",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-103",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-103'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-103",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-103",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'math-and-algorithm-104'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=math-and-algorithm-104",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-104",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'math-and-algorithm-104'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=math-and-algorithm-104",
+                    "--package=math-and-algorithm"
+                ],
+                "filter": {
+                    "name": "math-and-algorithm-104",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

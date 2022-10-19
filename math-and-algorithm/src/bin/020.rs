@@ -1,3 +1,4 @@
+use itertools::Itertools;
 use proconio::input;
 
 fn main() {
@@ -7,23 +8,10 @@ fn main() {
     };
 
     let mut answer: i64 = 0;
-    for i in 0..n {
-        for j in i + 1..n {
-            for k in j + 1..n {
-                for l in k + 1..n {
-                    for m in l + 1..n {
-                        if a[i as usize]
-                            + a[j as usize]
-                            + a[k as usize]
-                            + a[l as usize]
-                            + a[m as usize]
-                            == 1000
-                        {
-                            answer += 1;
-                        }
-                    }
-                }
-            }
+    for a in a.iter().combinations(5) {
+        let sum: i64 = a.iter().fold(0, |sum, x| sum + **x);
+        if sum == 1000 {
+            answer += 1;
         }
     }
 
