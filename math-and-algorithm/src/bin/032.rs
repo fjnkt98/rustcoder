@@ -16,7 +16,10 @@ fn main() {
     }
 }
 
-fn binary_search(a: &[i64], x: i64) -> bool {
+fn binary_search<T>(a: &[T], x: T) -> bool
+where
+    T: PartialOrd,
+{
     let mut left: usize = 0;
     let mut right: usize = a.len();
 
