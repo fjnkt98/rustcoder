@@ -14,8 +14,11 @@ fn main() {
         c[*r] -= 1;
     }
 
-    c = c.iter().cumsum().collect::<Vec<i64>>();
     c.pop();
-    let c = c.iter().map(|x| x.to_string()).collect::<Vec<String>>();
+    let c = c
+        .iter()
+        .cumsum()
+        .map(|x: i64| x.to_string())
+        .collect::<Vec<String>>();
     println!("{}", c.join("\n"));
 }
