@@ -2,6 +2,12 @@ use proconio::input;
 
 fn main() {
     input! {
-        a: i32,
+        n: i64,
     };
+
+    if n % 2 == 0 {
+        println!("Yes");
+    } else {
+        println!("No");
+    }
 }
