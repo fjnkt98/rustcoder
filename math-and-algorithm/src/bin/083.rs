@@ -2,6 +2,18 @@ use proconio::input;
 
 fn main() {
     input! {
-        a: i32,
+        n: usize,
+        mut a: [i64; n],
+        mut b: [i64; n]
     };
+
+    a.sort();
+    b.sort();
+
+    let mut answer: i64 = 0;
+    for (a, b) in a.iter().zip(b.iter()) {
+        answer += (a - b).abs();
+    }
+
+    println!("{}", answer);
 }

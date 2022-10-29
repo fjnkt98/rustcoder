@@ -2,6 +2,8 @@ use proconio::input;
 
 fn main() {
     input! {
-        a: i32,
+        n: i64,
     };
+
+    println!("{}", (n - 1) * n / 2);
 }
