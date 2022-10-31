@@ -128,6 +128,12 @@ path = "./{{ contest }}"
 ##bin-alias = '{% assign segments = url | split: "/" %}{{ segments[5] }}' # optional
 ##bin-src-path = './src/bin/{{ bin_alias }}.rs' # optional
 
+[add]
+url = "https://algo-method.com/tasks/{{ args[0] }}"
+bin-name = '{{ args[0] }}'
+bin-alias = '{{ args[0] }}'
+bin-src-path = './src/bin{{ bin_alias }}.rs'
+
 [test]
 # Toolchain for the test. (optional)
 toolchain = "1.42.0"
