@@ -105,10 +105,10 @@ platform = "atcoder"
 # - `package_name`: Package name
 path = "./{{ contest }}"
 
-#[new]
-#kind = "oj-api"
-#url = "https://atcoder.jp/contests/{{ id }}"
-#path = "./{{ contest }}"
+# [new]
+# kind = "oj-api"
+# url = "https://atcoder.jp/contests/{{ id }}"
+# path = "./{{ contest }}"
 
 # for Library-Checker
 #[add]
