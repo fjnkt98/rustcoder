@@ -2,6 +2,9 @@ use proconio::input;
 
 fn main() {
     input! {
-        n: i64,
+        x: i64,
+        y: i64,
     };
+
+    println!("{}", y / x)
 }
