@@ -1,7 +1,11 @@
+use num_integer::gcd;
 use proconio::input;
 
 fn main() {
     input! {
-        n: i64,
+        a: i64,
+        b: i64
     };
+
+    println!("{}", gcd(a, b));
 }
