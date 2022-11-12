@@ -2,6 +2,13 @@ use proconio::input;
 
 fn main() {
     input! {
-        n: i64,
+        _: usize,
+        s: String
     };
+
+    if s.contains("RRR") || s.contains("BBB") {
+        println!("Yes");
+    } else {
+        println!("No");
+    }
 }
