@@ -34,7 +34,7 @@ fn main() {
     answer.push(0);
 
     let mut current_score = score(&answer, &xy);
-    while now.elapsed() < time::Duration::from_millis(950) {
+    while now.elapsed() < time::Duration::from_millis(990) {
         let mut l = rng.gen_range(1, n + 1);
         let mut r = rng.gen_range(1, n + 1);
 
@@ -50,9 +50,18 @@ fn main() {
         new_answer[l..r].reverse();
 
         let new_score = score(&new_answer, &xy);
-        if current_score > new_score {
+
+        let t: f64 = -(now.elapsed().as_millis() as f64 * 28.0) / 990.0 + 30.0;
+        let delta = current_score - new_score;
+        if delta >= 0.0 {
             answer = new_answer;
             current_score = new_score;
+        } else {
+            let p = (delta / t).exp();
+            if rng.gen_range(0.0, 1.0) < p {
+                answer = new_answer;
+                current_score = new_score;
+            }
         }
     }
 
