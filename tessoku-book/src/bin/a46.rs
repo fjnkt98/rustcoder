@@ -1,7 +1,19 @@
+use itertools::Itertools;
 use proconio::input;
+use rand::seq::SliceRandom;
+use rand::{thread_rng, Rng};
+use std::time;
 
-fn distance(a: (f64, f64), b: (f64, f64)) -> f64 {
+fn distance(a: &(f64, f64), b: &(f64, f64)) -> f64 {
     return ((a.0 - b.0).powf(2.0) + (a.1 - b.1).powf(2.0)).sqrt();
+}
+
+fn score(p: &[usize], xy: &[(f64, f64)]) -> f64 {
+    let mut sum = 0.0;
+    for (&i, &j) in p.iter().tuple_windows() {
+        sum += distance(&xy[i], &xy[j]);
+    }
+    return sum;
 }
 
 fn main() {
@@ -10,33 +22,39 @@ fn main() {
         xy: [(f64, f64); n]
     };
 
+    let now = time::Instant::now();
+
+    let mut initial_value = (1..n).collect::<Vec<usize>>();
+    let mut rng = thread_rng();
+    initial_value.shuffle(&mut rng);
+
     let mut answer: Vec<usize> = Vec::new();
     answer.push(0);
-    let mut explored = vec![false; n];
-    explored[0] = true;
-    let mut current = xy[0];
-    for _ in 0..n {
-        let mut next: usize = n;
-        let mut d = std::f64::INFINITY;
-        for i in 0..n {
-            if explored[i] {
-                continue;
-            }
-            if distance(current, xy[i]) < d {
-                d = distance(current, xy[i]);
-                next = i;
-            }
-        }
-
-        if next == n {
-            break;
-        }
-
-        answer.push(next);
-        current = xy[next];
-        explored[next] = true;
-    }
+    answer.append(&mut initial_value);
     answer.push(0);
+
+    let mut current_score = score(&answer, &xy);
+    while now.elapsed() < time::Duration::from_millis(950) {
+        let mut l = rng.gen_range(1, n + 1);
+        let mut r = rng.gen_range(1, n + 1);
+
+        if l > r {
+            std::mem::swap(&mut l, &mut r);
+        }
+
+        if r - l <= 1 {
+            continue;
+        }
+
+        let mut new_answer = answer.clone();
+        new_answer[l..r].reverse();
+
+        let new_score = score(&new_answer, &xy);
+        if current_score > new_score {
+            answer = new_answer;
+            current_score = new_score;
+        }
+    }
 
     println!(
         "{}",
