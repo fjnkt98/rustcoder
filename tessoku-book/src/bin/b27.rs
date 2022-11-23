@@ -1,7 +1,11 @@
+use num_integer::lcm;
 use proconio::input;
 
 fn main() {
     input! {
-        n: i64,
+        a: u64,
+        b: u64,
     };
+
+    println!("{}", lcm(a, b));
 }
